@@ -2,12 +2,11 @@ import React from 'react';
 import { FaSearch, FaGlobe, FaUserCircle } from "react-icons/fa";
 import { FaLinkedin, FaInstagram, FaYoutube, FaFacebook } from "react-icons/fa";
 import { SiX } from "react-icons/si"; // for X (Twitter-like)
-// import { FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
-// import { Home, Calendar, FileText, Users, Settings } from "lucide-react";
+
 import logo from '../assets/logo.png';
 import zohocrm from '../assets/zohocrm.png';
 import '../pages/view/CRMHome.css'; // put footer styles also here OR keep separate CSS
-// import heroImage from "../assets/crm-hero.png";
+
 import tafeLogo from "../assets/tafe.png";
 import blueStarLogo from "../assets/bluestar.png";
 import boseLogo from "../assets/bose.png";
@@ -29,6 +28,11 @@ import iso3 from "../assets/icon3.png";
 import soc from "../assets/soc.png";
 import gdpr from "../assets/gppr.png";
 import hipaa from "../assets/hipaa.png";
+import ph1icon from "../assets/ph1.png";
+import ph2icon from "../assets/ph2.webp";
+import ph3icon from "../assets/ph4.webp";
+import ph4icon from "../assets/ph4.webp";
+
 
 const CRMHome = () => {
   // const navigate = useNavigate();
@@ -184,7 +188,7 @@ const CRMHome = () => {
         last year that we have been using Zoho.
       </p>
       <div className="author1">
-        <img src="/people/thomas.png" alt="Thomas John" className="author-img" />
+      <img src={ph1icon} alt="Thomas John" className="author-img" />
         <div>
           <strong>Thomas John</strong>
           <p>Managing Director, Agappe</p>
@@ -201,7 +205,9 @@ const CRMHome = () => {
         informed decisions.
       </p>
       <div className="author2">
-        <img src="/people/samer.png" alt="Samer Zughul" className="author-img" />
+      <img src={ph2icon} alt="Samer Zughul" className="author-img" />
+
+   
         <div>
           <strong>Samer Zughul</strong>
           <p>Managing Partner, Simplify9</p>
@@ -217,7 +223,9 @@ const CRMHome = () => {
         addressed it all. This was a game changer.
       </p>
       <div className="author3">
-        <img src="/people/olga.png" alt="Olga" className="author-img" />
+      <img src={ph3icon} alt="Olga" className="author-img" />
+
+     
         <div>
           <strong>Olga Kovshanova</strong>
           <p>Director, Minor Hotels</p>
@@ -232,7 +240,7 @@ const CRMHome = () => {
         significantly enhanced the potential for effective team collaboration.
       </p>
       <div className="author4">
-        <img src="/people/ari.png" alt="Ari" className="author-img" />
+      <img src={ph4icon}alt="Ari" className="author-img" />
         <div className="author-img2">
           <strong>Ari Daniel Hernandez Sanchez</strong>
           <p>Marketing Director, Ava 7</p>
