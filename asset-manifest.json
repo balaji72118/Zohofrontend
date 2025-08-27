@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Zohofrontend/static/css/main.0f8a8d16.css",
+    "main.js": "/Zohofrontend/static/js/main.29606f17.js",
+    "static/media/bodyimage.png": "/Zohofrontend/static/media/bodyimage.cdd8286325599799e611.png",
+    "static/media/dashboard.png": "/Zohofrontend/static/media/dashboard.0bff1b112c384c91a93f.png",
+    "static/media/footer.png": "/Zohofrontend/static/media/footer.f4d939af7f6581497440.png",
+    "static/media/ph1.png": "/Zohofrontend/static/media/ph1.3167fc61c3667af3e99c.png",
+    "static/media/centerpage-image.png": "/Zohofrontend/static/media/centerpage-image.401c9a6b37b971bbeb0b.png",
+    "static/media/illustration2.png": "/Zohofrontend/static/media/illustration2.717a47bcf705ed75d225.png",
+    "static/media/icon2.png": "/Zohofrontend/static/media/icon2.9ab134e03022f7412f5b.png",
+    "static/media/soc.png": "/Zohofrontend/static/media/soc.04f465e77d140b6cd901.png",
+    "static/media/illustration1.png": "/Zohofrontend/static/media/illustration1.2b7363ae0f48d204263a.png",
+    "static/media/gppr.png": "/Zohofrontend/static/media/gppr.ebd99499e57052ef0f40.png",
+    "static/media/icon1.png": "/Zohofrontend/static/media/icon1.00a9ab6eec76bdd80074.png",
+    "static/media/icon3.png": "/Zohofrontend/static/media/icon3.172b070859637cc865cd.png",
+    "static/media/bluestar.png": "/Zohofrontend/static/media/bluestar.abfcf3b84eca5979b750.png",
+    "static/media/marathon.png": "/Zohofrontend/static/media/marathon.9d631f86bcbbf8ec6369.png",
+    "static/media/hipaa.png": "/Zohofrontend/static/media/hipaa.e34592d266a62cb05667.png",
+    "static/media/tafe.png": "/Zohofrontend/static/media/tafe.0085ba1e659393c524da.png",
+    "static/media/iifl.png": "/Zohofrontend/static/media/iifl.365e78c7396e1d3a95c1.png",
+    "static/media/playstore.png": "/Zohofrontend/static/media/playstore.07c715e88575aa3edfd3.png",
+    "static/media/zohocrm.png": "/Zohofrontend/static/media/zohocrm.5b2002bfbdaa2054cadd.png",
+    "static/media/appstore.png": "/Zohofrontend/static/media/appstore.c52cca69757f44437e2a.png",
+    "static/media/hotstar.png": "/Zohofrontend/static/media/hotstar.6994bca762fa5e5a2554.png",
+    "static/media/ph4.webp": "/Zohofrontend/static/media/ph4.87586aaf604acdd85456.webp",
+    "static/media/ph2.webp": "/Zohofrontend/static/media/ph2.489a35902ff711781c4a.webp",
+    "index.html": "/Zohofrontend/index.html",
+    "main.0f8a8d16.css.map": "/Zohofrontend/static/css/main.0f8a8d16.css.map",
+    "main.29606f17.js.map": "/Zohofrontend/static/js/main.29606f17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f8a8d16.css",
+    "static/js/main.29606f17.js"
+  ]
+}
