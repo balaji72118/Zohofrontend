@@ -79,19 +79,66 @@ html, body {
   /* border-top: 1px solid #ddd; */
 }
 
-/* ===== Responsive ===== */
 @media screen and (max-width: 576px) {
-  .auth-heading {
-    font-size: 1.5rem;
+  .auth-heading,
+  .auth-heading2 {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-right: 0;
   }
 
-  .auth-button {
-    max-width: 100%;
+  .auth-heading23 {
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .auth-form2,
+  .auth-box-centerbox,
+  .auth-side-info,
+  .auth-alt-signup2,
+  .auth-icon2 {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .auth-button,
+  .auth-button3 {
+    width: 100%;
     font-size: 15px;
+    padding: 10px 20px;
   }
 
-  .auth-signup {
-    font-size: 13px;
-    padding: 0 10px;
+  .auth-field3 input {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .centerimage img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+  }
+
+  .auth-side-info img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    padding-top: 20px;
+  }
+
+  .center-box {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .auth-box-centerbox {
+    border-right: none;
+  }
+
+  .footer {
+    font-size: 0.8rem;
+    padding: 10px;
   }
 }

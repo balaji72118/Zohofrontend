@@ -444,14 +444,111 @@ html, body {
   margin: 10px 0;
 }
 
-@media (max-width: 576px) {
-  .crm-footer-container {
+/* ===== Mobile-first Enhancements (≤576px) ===== */
+@media screen and (max-width: 576px) {
+  .crm-navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .crm-navlinks {
+    flex-direction: column;
+    padding-left: 0;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .crm-right {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .subnav {
+    flex-direction: column;
+    padding: 1rem;
+    height: auto;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .subnav-left img {
+    height: 80px;
+    margin-right: 0;
+  }
+
+  .subnav-links ul {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0;
+  }
+
+  .crm-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .crm-hero p {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+  }
+
+  .crm-hero-image {
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .crm-trusted h2,
+  .crm-teams h2 {
+    font-size: 1.5rem;
+  }
+
+  .crm-teams p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .pill-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .dashboard-container {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .sidebar {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .testimonials h2 {
+    font-size: 1.5rem;
+  }
+
+  .testimonial-cards {
     grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .crm-footer {
+    padding: 2rem 1rem;
   }
 
   .footer-bottom {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .footer-bottom .apps img {
+    margin-right: 10px;
+  }
+
+  .footer-bottom .social-icons {
+    justify-content: center;
   }
 
   .cert-icons {
@@ -459,9 +556,35 @@ html, body {
     align-items: center;
   }
 
-  .footer-col h3,
-  .footer-col ul {
-    margin-left: 0;
-    text-align: left;
+  .footer-legal {
+    font-size: 0.65rem;
+    padding: 0 1rem;
+  }
+}
+
+/* ===== Tablet Enhancements (≤768px) ===== */
+@media screen and (max-width: 768px) {
+  .crm-hero h1 {
+    font-size: 3.5rem;
+  }
+
+  .crm-hero p {
+    font-size: 1.5rem;
+  }
+
+  .crm-teams h2 {
+    font-size: 2.5rem;
+  }
+
+  .crm-teams p {
+    font-size: 1.2rem;
+  }
+
+  .testimonial-cards {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .crm-footer-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
