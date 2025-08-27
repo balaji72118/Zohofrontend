@@ -1,0 +1,131 @@
+/* ===== Signup Container ===== */
+.auth-container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  min-height: 90vh;
+  background-color: #fff;
+}
+
+/* ===== Heading ===== */
+.auth-heading1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+  max-width: 500px;
+  margin-bottom: 30px;
+  text-align: start;
+}
+
+/* ===== Form Layout ===== */
+.auth-form1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+/* ===== Form Fields ===== */
+.auth-field1 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.auth-field1 label {
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+}
+
+
+
+.auth-field1 input {
+  padding: 10px;
+  font-size: 14px;
+  /* border: 1px solid #ccc; */
+  /* border-radius: 4px; */
+  /* background-color: #f4eeeee4; */
+}
+
+/* ===== Checkbox ===== */
+.auth-checkbox1 {
+  font-size: 13px;
+  color: #555;
+}
+
+.auth-checkbox1 a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* ===== Submit Button ===== */
+.auth-button1 {
+  background-color: #FF1100;
+  color: #fff;
+  border: none;
+  /* border-radius: 4px; */
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* ===== Message Feedback ===== */
+.auth-container1 p {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* ===== Social Signup ===== */
+.auth-alt-signup1 {
+  margin-top: 20px;
+  max-width: 500px;
+  text-align: left;
+}
+
+.auth-alt-signup1 p {
+  font-size: 14px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.auth-icons1 {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.auth-icons1 img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/* ===== Responsive ===== */
+@media screen and (max-width: 576px) {
+  .auth-heading1 {
+    font-size: 1.5rem;
+  }
+
+  .auth-form1 {
+    max-width: 100%;
+  }
+
+  .auth-button1 {
+    max-width: 100%;
+    font-size: 15px;
+  }
+
+  .auth-icons1 {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+}
